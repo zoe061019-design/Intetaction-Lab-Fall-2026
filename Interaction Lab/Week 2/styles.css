@@ -1,0 +1,66 @@
+/* 1. Put the import at the very top of the file */
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+body{
+        margin: 0;
+        padding: 60px;
+        background: radial-gradient(circle, #BAFFB8 20%, #FCE8FD 60%, #011A00 100%);
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .gradient-text {
+        background: radial-gradient(
+            circle, #7b008c, #ef005c, #fbff00);
+        background-attachment: fixed;
+        background-clip: text;
+        -webkit-background-clip: text;
+
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+    
+/* 2. Style your h1 element lower down in the file */
+h1 {
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Set your desired weight from 100 to 900 */
+  font-style: normal;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-color: rgb(255, 0, 200);
+    background-color: rgb(235, 255, 190);
+    opacity: 0.5;
+    padding: 10px;
+    display: flex;
+    z-index: 1000;
+
+}
+
+.Question{
+    font-family: "Doto", sans-serif;
+    text-align: right;
+    margin-right: auto;
+    font-weight: 900;
+}
+
+.Question header{
+    font-family: "Doto", sans-serif;
+    font-weight: 900;
+    font-size: 20 em;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Answer{
+    font-family: "Doto", sans-serif;
+    background-color: rgba(253, 255, 187, 0.4);
+    color: #111111;
+    font-weight: 800;
+    padding: 25px;
+}
